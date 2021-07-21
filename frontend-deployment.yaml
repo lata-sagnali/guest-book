@@ -20,7 +20,7 @@ spec:
         image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         env:
         - name: GET_HOSTS_FROM
-          value: "dns"
+          value: env
         resources:
           requests:
             cpu: 100m
